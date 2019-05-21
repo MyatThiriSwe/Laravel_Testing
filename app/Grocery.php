@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Grocery extends Model
 {
     //
+     protected $fillable = ['name','type','price'];
 }
